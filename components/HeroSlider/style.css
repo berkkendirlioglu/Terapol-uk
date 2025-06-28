@@ -110,7 +110,6 @@ body {
 }
 
 .arrow-container {
-  width: 250px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);

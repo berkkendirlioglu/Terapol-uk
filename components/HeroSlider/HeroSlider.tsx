@@ -93,7 +93,7 @@ function Arrow(props: any) {
   return (
     <div onClick={props.onClick} className={`${
           props.left ? "arrow--left" : "arrow--right"
-        } ${disabled} arrow-container`}>
+        } ${disabled} arrow-container !w-[50px] lg:!w-[250px]`}>
       <svg
         className={`arrow`}
         xmlns="http://www.w3.org/2000/svg"
